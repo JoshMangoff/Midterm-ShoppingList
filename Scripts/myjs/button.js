@@ -7,24 +7,25 @@
 */
 $(document).bind('pageinit',function(){
 
-    //variables
-    var buttonPressed;
-
     //function for buttons
     $("button").bind("click",function(event, ui){
-        buttonPressed = $(this);
+        //variables
+        var buttonPressed = $(this);
+
         if(buttonPressed.text == "Submit") {
 
         }
         else if (buttonPressed.text == "Cancel"){
+            //clear values
             document.getElementById("lbl1").value = 0;
             document.getElementById("lbl2").value = 0;
             document.getElementById("lbl3").value = 0;
             document.getElementById("lbl4").value = 0;
             document.getElementById("lbl5").value = 0;
+            document.getElementById("title").value = "Shopping List";
         }
         else{
-            //calcs
+            //calcs - subtraction
             if(buttonPressed.id == "btn1low" & document.getElementById("lbl1").value > 0){
                 document.getElementById("lbl1").value = 
                   document.getElementById("lbl1").value - 1;
@@ -45,6 +46,7 @@ $(document).bind('pageinit',function(){
                 document.getElementById("lbl5").value = 
                   document.getElementById("lbl5").value - 1;
             }
+            //calcs - addition
             else if(buttonPressed.id == "btn1high"){
                  document.getElementById("lbl1").value = 
                    document.getElementById("lbl1").value + 1;
@@ -64,9 +66,9 @@ $(document).bind('pageinit',function(){
             else if(buttonPressed.id == "btn5high"){
                  document.getElementById("lbl5").value = 
                    document.getElementById("lbl5").value + 1;
-            }
+            };
 
-        }
+        };
 
     });
 
