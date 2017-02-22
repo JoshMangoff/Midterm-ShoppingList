@@ -1,0 +1,21 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "shopping list ui",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshMangoff/Midterm-ShoppingList.git"
+  },
+  "author": "Josh Mangoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshMangoff/Midterm-ShoppingList/issues"
+  },
+  "homepage": "https://github.com/JoshMangoff/Midterm-ShoppingList#readme"
+}

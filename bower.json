@@ -1,0 +1,22 @@
+{
+  "name": "midterm",
+  "description": "shopping list ui",
+  "main": "index.js",
+  "authors": [
+    "Josh Mangoff"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JoshMangoff/Midterm-ShoppingList",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "jquery-mobile-bower": "^1.4.5"
+  }
+}
