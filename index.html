@@ -11,9 +11,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>Shopping List</title>
   <!-- CSS Section -->
+  <link rel="stylesheet" href="\Scripts\lib\jquery-mobile-bower\css\jquery.mobile-1.4.5.min.css">
 </head>
 <body>
+  <div data-role="page">
+    <!-- Name of List -->
+    <div>
+      <label>Enter List Name</label>
+    </div>
+    <div>
+      <input value="Shopping List" id="display"></input>
+    </div>
+    <div>
+      <label>Enter List Item</label>
+    </div>
     
-    <!-- JavaScript Section -->
+    <!--  Grid for List Items and Buttons -->
+    <div class="ui-grid-a">
+      <div class="ui-block-a"></div>
+      <div class="ui-block-b"></div>
+
+      <div class="ui-block-a"></div>
+      <div class="ui-block-b"></div>
+
+      <div class="ui-block-a"></div>
+      <div class="ui-block-b"></div>
+
+      <div class="ui-block-a"></div>
+      <div class="ui-block-b"></div>
+
+      <div class="ui-block-a"></div>
+      <div class="ui-block-b"></div>
+
+      <!-- Buttons -->
+      <div class="ui-block-a"><button class="ui-btn">Submit</button></div>
+      <div class="ui-block-b"><button class="ui-btn">Cancel</button></div>
+    </div>
+
+  </div>
+  <!-- JavaScript Section -->
+  <script src="\Scripts\lib\jquery\dist\jquery.min.js"></script>
+  <script src="\Scripts\lib\jquery-mobile-bower\js\jquery.mobile-1.4.5.min.js"></script>
 </body>
 </html>
